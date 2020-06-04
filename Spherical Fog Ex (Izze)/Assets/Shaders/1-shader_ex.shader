@@ -1,6 +1,12 @@
+// 1-shader_ex.shader
 //
+// By: Ismael Cortez
+// Date: 06-02-2020
+// Final Project: Foggy Forest
 //
-
+// Adapted from:
+//	https://forum.unity.com/threads/spherical-fog-shader-shared-project.269771/
+//
 Shader "Custom/Spherical Fog"
 {
 	Properties
@@ -14,13 +20,14 @@ Shader "Custom/Spherical Fog"
 	 
 	Category
 	{
-		Tags{ "Queue"="Transparent+99" "IgnoreProjector"="True" "RenderType"="Transparent"}
 		Blend SrcAlpha OneMinusSrcAlpha
 		Cull Off Lighting Off ZWrite Off
 		ZTest Always
 	 	
 		SubShader
 		{
+			// Tags tell when and how to be rendered
+			Tags{"Queue"="Transparent+99" "IgnoreProjector"="True" "RenderType"="Transparent" "ForceNoShadowCasting"="true"}
 			Pass
 			{
 				CGPROGRAM
