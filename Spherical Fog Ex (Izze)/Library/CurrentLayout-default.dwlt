@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 98
+  controlID: 100
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 99
+  controlID: 101
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,9 +328,15 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: 7e350000
       m_LastClickedID: 13694
       m_ExpandedIDs: 60fbffff
+=======
+      m_SelectedIDs: 74330000
+      m_LastClickedID: 13172
+      m_ExpandedIDs: 6afbffff
+>>>>>>> a1dd1c94cfec4769e71254bea4125ab6810331cf
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -442,9 +448,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.07067037, y: 0.85043365, z: -0.11837898, w: -0.50769556}
   m_Size:
+<<<<<<< HEAD
     m_Target: 43.428654
     speed: 2
     m_Value: 43.428654
+=======
+    m_Target: 75.460915
+    speed: 2
+    m_Value: 72.2114
+>>>>>>> a1dd1c94cfec4769e71254bea4125ab6810331cf
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -600,6 +612,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Materials
   m_ViewMode: 1
   m_StartGridSize: 64
@@ -607,14 +620,29 @@ MonoBehaviour:
   - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\iziff\OneDrive\Desktop\CS\CMPM163FoggyWoods\Spherical
+=======
+    - Assets/Shaders
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Shaders
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\elcon\Documents\GitHub\CMPM163FoggyWoods\Spherical
+>>>>>>> a1dd1c94cfec4769e71254bea4125ab6810331cf
     Fog Ex (Izze)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: c6350000
     m_LastClickedID: 13766
     m_ExpandedIDs: 00000000c035000000ca9a3b
+=======
+    m_SelectedIDs: c0330000
+    m_LastClickedID: 13248
+    m_ExpandedIDs: 00000000b633000000ca9a3b
+>>>>>>> a1dd1c94cfec4769e71254bea4125ab6810331cf
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -642,7 +670,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 92330000
     m_LastClickedID: 13202
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000c0350000
+=======
+    m_ExpandedIDs: 00000000b6330000
+>>>>>>> a1dd1c94cfec4769e71254bea4125ab6810331cf
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
