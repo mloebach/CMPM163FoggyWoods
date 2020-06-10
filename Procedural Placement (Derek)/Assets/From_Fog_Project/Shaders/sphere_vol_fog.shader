@@ -139,6 +139,7 @@ Shader "Custom/Sphere Volume Fog"
 
             v2f vert(appdata_base v)
             {
+                // here we obtain the vertex
                 v2f o;
                 float4 wPos = mul(unity_ObjectToWorld, v.vertex);
                 o.pos = UnityObjectToClipPos(v.vertex);
@@ -153,6 +154,7 @@ Shader "Custom/Sphere Volume Fog"
 
             half4 frag(v2f i) : COLOR
             {
+                // here we calc the color and transparency of the vertex
                 half4 color = half4(1,1,1,1);
                 float depth = LinearEyeDepth(UNITY_SAMPLE_DEPTH(tex2Dproj(_CameraDepthTexture, UNITY_PROJ_COORD(i.projPos))));
                 float3 view_dir = normalize(i.view);

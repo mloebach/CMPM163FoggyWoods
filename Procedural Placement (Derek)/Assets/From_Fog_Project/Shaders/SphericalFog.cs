@@ -1,4 +1,4 @@
-﻿// sphere_vol_fog.shader
+﻿// SphericalFog.cs
 //
 // By: Ismael Cortez
 // Date: 06-02-2020
@@ -8,8 +8,9 @@
 //	https://forum.unity.com/threads/spherical-fog-shader-shared-project.269771/
 //
 
-using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 [ExecuteInEditMode]
 public class SphericalFog : MonoBehaviour
@@ -18,7 +19,7 @@ public class SphericalFog : MonoBehaviour
 	public Material sphericalFogMaterial;
 	public float scaleFactor = 1;
 
-	void OnEnable ()
+	void OnEnable()
 	{
 		sphericalFogObject = gameObject.GetComponent<MeshRenderer>();
 		if (sphericalFogObject == null)
@@ -32,7 +33,8 @@ public class SphericalFog : MonoBehaviour
 		
 	}
 
-	void Update ()
+	// Update() is called once per frame
+	void Update()
 	{
 		float radius = (transform.lossyScale.x + transform.lossyScale.y + transform.lossyScale.z) / 6;
 		Material mat = Application.isPlaying ? sphericalFogObject.material : sphericalFogObject.sharedMaterial;
