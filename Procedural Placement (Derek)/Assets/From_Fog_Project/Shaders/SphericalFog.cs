@@ -1,4 +1,14 @@
-﻿using UnityEngine;
+﻿// sphere_vol_fog.shader
+//
+// By: Ismael Cortez
+// Date: 06-02-2020
+// CMPM 163 Final Project: Foggy Forest
+//
+// Adapted from:
+//	https://forum.unity.com/threads/spherical-fog-shader-shared-project.269771/
+//
+
+using UnityEngine;
 using System.Collections;
 
 [ExecuteInEditMode]
@@ -30,3 +40,4 @@ public class SphericalFog : MonoBehaviour
 			mat.SetVector ("FogParam", new Vector4(transform.position.x, transform.position.y, transform.position.z, radius * scaleFactor));
 	}
 }
+
