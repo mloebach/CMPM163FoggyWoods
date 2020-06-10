@@ -5,7 +5,7 @@ public class PerlinNoise : MonoBehaviour
 {
     // Start is called before the first frame update
    public int width = 256;
-   public int height = 256;
+   public int height = 256*50; //this is where I changed to adjust for higher trunks! - Derek
 
    public float scale = 20f;
 
